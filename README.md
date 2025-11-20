@@ -64,7 +64,7 @@ mkdir -p images data
 Run the script to index images and perform a search:
 
 ```bash
-python main.py
+python multimodal_start.py
 ```
 
 The default query searches for "sports, f1" and returns the top 2 most similar images.
