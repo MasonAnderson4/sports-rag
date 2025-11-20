@@ -64,7 +64,7 @@ mkdir -p images data
 Run the script to index images and perform a search:
 
 ```bash
-python main.py
+python multimodal_start.py
 ```
 
 The default query searches for "sports, f1" and returns the top 2 most similar images.
@@ -117,7 +117,8 @@ query_results = collection.query(
 
 ```
 sports-rag/
-├── main.py              # Main application script
+├── multimodal_start.py  # Main application script
+|-- venv/
 ├── images/              # Directory for sports images
 │   ├── archery.jpg
 │   ├── baseball.jpg
@@ -241,8 +242,3 @@ This project is open source and available under the MIT License.
 - ChromaDB for efficient vector storage
 - OpenCLIP for open-source CLIP implementation
 
-## Contact
-
-Mason Anderson - [@MasonAnderson4](https://github.com/MasonAnderson4)
-
-Project Link: [https://github.com/MasonAnderson4/sports-rag](https://github.com/MasonAnderson4/sports-rag)
