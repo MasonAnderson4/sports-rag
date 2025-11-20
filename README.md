@@ -2,6 +2,12 @@
 
 A multimodal RAG (Retrieval-Augmented Generation) system that enables semantic search over sports images using natural language queries. Built with ChromaDB and OpenCLIP for powerful image-to-text and text-to-image similarity matching.
 
+## Demo
+
+
+https://github.com/user-attachments/assets/8b69e9e5-dd59-42d2-b0b5-7d78127e2b7a
+
+
 ## Overview
 
 Sports-RAG demonstrates multimodal embedding and retrieval by indexing sports images and allowing users to search them using natural language descriptions. The system uses OpenCLIP's vision-language model to understand both images and text in a shared embedding space, enabling intuitive image discovery.
